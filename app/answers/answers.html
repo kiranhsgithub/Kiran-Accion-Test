@@ -1,0 +1,12 @@
+<div data-ng-include="../../logout/logout.html"></div>
+<article>
+    <header>
+        <h2>
+            JavaScript Quiz Answers
+        </h2>
+    </header>
+    <section data-ng-repeat="question in questions">
+        <p data-ng-include="questionTemplate.html"></p><br>
+        <p data-ng-include="answerTemplate.html"></p>
+    </section>
+</article>
